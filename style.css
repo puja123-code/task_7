@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#2d3e50;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+}
+
+.menu li{
+    margin:0 15px;
+    color:#7d7d7d;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.user{
+    background:#dff1ff;
+    color:#1ea4ff;
+    padding:12px 18px;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+}
+
+/* Left Side */
+
+.left{
+    width:50%;
+}
+
+.left h1{
+    font-size:55px;
+    line-height:75px;
+    color:#3b4b5c;
+    margin-bottom:20px;
+}
+
+.left span{
+    color:#1ea4ff;
+}
+
+.left p{
+    color:#8a8a8a;
+    font-size:20px;
+    line-height:32px;
+    margin-bottom:35px;
+}
+
+.left button{
+    background:#1ea4ff;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    border-radius:15px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* Right Side */
+
+.right img{
+    width:450px;
+}
+
+
+/* Tablet View */
+
+@media screen and (max-width:768px){
+
+    .navbar{
+        padding:20px;
+    }
+
+    .logo{
+        font-size:22px;
+    }
+
+    .menu li{
+        font-size:13px;
+        margin:0 8px;
+    }
+
+    .user{
+        font-size:12px;
+        padding:8px 12px;
+    }
+
+    .hero{
+        padding:40px 20px;
+    }
+
+    .left h1{
+        font-size:38px;
+        line-height:50px;
+    }
+
+    .left p{
+        font-size:16px;
+        line-height:25px;
+    }
+
+    .right img{
+        width:300px;
+    }
+}
+
+
+/* Mobile View */
+
+/* @media screen and (max-width:480px){
+
+    .menu{
+        display:none;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .left{
+        width:100%;
+        margin-bottom:30px;
+    }
+
+    .left h1{
+        font-size:30px;
+        line-height:42px;
+    }
+
+    .left p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    .left button{
+        padding:14px 25px;
+        font-size:14px;
+    }
+
+    .right img{
+        width:230px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .navbar{
+        padding:15px 25px;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .menu li{
+        font-size:14px;
+        margin:0 8px;
+    }
+
+    .user{
+        font-size:12px;
+        padding:10px 14px;
+    }
+
+    .hero{
+        padding:40px 25px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:20px;
+    }
+
+    .left{
+        width:50%;
+    }
+
+    .left h1{
+        font-size:42px;
+        line-height:55px;
+    }
+
+    .left p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .left button{
+        padding:15px 28px;
+        font-size:14px;
+    }
+
+    .right img{
+        width:320px;
+    }
+}
+
+/* Mobile View */
+
+@media screen and (max-width:480px){
+
+    .navbar{
+        padding:15px 20px;
+    }
+
+    /* Hide Menu */
+
+    .menu{
+        display:none;
+    }
+
+    .logo{
+        font-size:20px;
+    }
+
+    .user{
+        font-size:12px;
+        padding:10px 14px;
+
+    }
+
+    /* Hero Section */
+
+    .hero{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        padding:30px 20px;
+        gap:30px;
+    }
+
+    .left{
+        width:100%;
+    }
+
+    .left h1{
+        font-size:28px;
+        line-height:40px;
+    }
+
+    .left p{
+        font-size:14px;
+        line-height:24px;
+        text-align: justify;
+    }
+
+    .left button{
+        padding:18px 35px;
+        font-size:16px;
+        border-radius:18px;
+        margin-top:15px;
+    }
+
+    .right{
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+
+    .right img{
+        width:260px;
+    }
+} 
+
+@media screen and (max-width:768px){
+
+    .hero{
+    flex-direction:column;
+    padding:25px 20px;
+    text-align:left;
+    }
+
+    .left{
+    width:100%;
+    }
+
+  .right{
+    width:100%;
+    margin-top:30px;
+  }
+
+  .logo{
+    font-size:28px;
+    margin-bottom:30px;
+  }
+
+  .left h1{
+    font-size:32px;
+  }
+
+  .left p{
+    font-size:15px;
+    line-height:1.5;
+  }
+
+  .btn{
+    width:100%;
+    padding:18px;
+    border-radius:20px;
+    font-size:18px;
+  }
+
+  .right img{
+    width:320px;
+    max-width:100%;
+  }
+}
