@@ -1,0 +1,46 @@
+## Laundry Service Landing Page
+
+A responsive laundry service landing page built using HTML and CSS.
+This project is designed to provide a clean and modern user interface for a laundry business website.
+
+## Features
+Responsive design for mobile and desktop
+Modern hero section layout
+Clean typography and spacing
+Call-to-action button
+Image and content alignment using Flexbox
+Mobile-first responsive media queries
+Technologies Used
+HTML5
+CSS3
+Flexbox
+Media Queries
+Project Structure
+project-folder/
+│
+├── index.html
+├── style.css
+└── image.png
+Responsive Design
+
+## The website is fully responsive and adapts to different screen sizes:
+
+Desktop View
+Tablet View
+Mobile View
+How to Run the Project
+Download or clone the repository
+Open the project folder
+Run index.html in your browser
+Learning Outcomes
+
+## Through this project, I learned:
+
+Responsive web design
+Flexbox layout
+Media queries
+Mobile-first design approach
+UI spacing and alignment
+Author
+
+puja kumari
